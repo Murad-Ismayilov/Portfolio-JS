@@ -113,6 +113,27 @@ p{
     font-size: 22px;
 }
 
+.project h2{
+    font-size: 54px;
+}
+
+.project button{
+    width: 151px;
+    height: 68px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    margin-left: 1170px;
+
+}
+
+.project-left{
+    margin-left: 90px;
+}
+
 .blog{
     border-bottom: 1px solid #dedede;
 }
@@ -131,7 +152,7 @@ p{
 
 .swiper-button-prev{
    
-    color: #ffffff;
+    color: #000000;
     border: 0px solid #ffffff;
     width: 54px;
     height: 54px;
@@ -142,7 +163,10 @@ p{
 
 }
 
-
+.project h1{
+    color: #B16CEA;
+    font-size: 22px;
+}
 
 .i{
     padding-bottom: 150px;
@@ -150,7 +174,7 @@ p{
 }
 
 .swiper-button-next{
-    color: #ffffff;
+    color: #000000;
     border: 0px solid #ffffff;
     width: 54px;
     height: 54px;
