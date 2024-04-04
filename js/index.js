@@ -128,3 +128,23 @@ const  swiper3 = new Swiper(".mySwiper3", {
   keyboard: true,
 });
 
+const overlayMenu=document.querySelector(".overlay-menu")
+const navbarButton=document.querySelector(".navbar-toggler-icon")
+const closemenu=document.querySelector(".fa-x")
+
+
+navbarButton.addEventListener("click",openthemenu)
+closemenu.addEventListener("click", closethemenu)  
+
+
+
+
+function openthemenu(){
+  overlayMenu.classList.add("aktiv")
+  
+}
+
+function closethemenu(){
+ overlayMenu.classList.remove("aktiv")
+
+}

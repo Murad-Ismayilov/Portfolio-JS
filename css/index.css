@@ -168,6 +168,16 @@ p{
     font-size: 22px;
 }
 
+
+    .rotate-90 {
+        transform: rotate(90deg);
+        width: auto; /* Resmin genişliğini otomatik olarak ayarlar */
+        height: 100%; /* Resmin yüksekliğini tam ekran yüksekliğine kadar uzatır */
+        object-fit: cover; /* Resmi belirtilen boyutlara uyacak şekilde ölçekler */
+      }
+
+  
+
 .i{
     padding-bottom: 150px;
     background-color: #000;
@@ -200,7 +210,6 @@ p{
 .blog-left-side h1{
     color: #FF8A56;
     font-size: 22px;
- 
 }
 
 .blog-left-side h2{
@@ -208,31 +217,21 @@ p{
     font-size: 54px;
 }
 
-
 .mySwiper3 .swiper-slide img {
-
     width: 60%;
-  }
+}
 
 .cards  h3{
     color: blue;
     flex-direction: column;
-
-  }
-
-  .services-cards{
-   
- 
-    width: 20%;
-    height: 20%;
-    
- 
 }
 
+.services-cards{
+    width: 20%;
+    height: 20%;
+}
 
 .services-cards{
     margin: -350px 100px 0 70px;
     background-color: #fff;
-  
 }
-
