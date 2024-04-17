@@ -27,7 +27,7 @@ function fetchBlogs() {
   const blogContainer = document.querySelector('.blog-right-side');
   blogContainer.innerHTML = '';
  
- 
+
   blogs.forEach(blog => {
       const blogDiv = document.createElement('div');
       blogDiv.classList.add('blog');
